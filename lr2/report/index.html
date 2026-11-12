@@ -1,0 +1,1756 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../lr1/report/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Отчёт - Веб-программирование. Аксянова Алина. K3340</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no2-django" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Веб-программирование. Аксянова Алина. K3340" class="md-header__button md-logo" aria-label="Веб-программирование. Аксянова Алина. K3340" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Веб-программирование. Аксянова Алина. K3340
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Отчёт
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Веб-программирование. Аксянова Алина. K3340" class="md-nav__button md-logo" aria-label="Веб-программирование. Аксянова Алина. K3340" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Веб-программирование. Аксянова Алина. K3340
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lr1/report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Используемые технологии
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Используемые технологии">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Подготовительные практики
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Структура проекта
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Модель данных
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Модель данных">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связи между моделями
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modelspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Основные модели models.py
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PostgreSQL и миграции
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-django" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Административная панель Django
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Административная панель Django">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        административная панель
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Регистрация и авторизация пользователей
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Регистрация и авторизация пользователей">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#viewspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Регистрация в views.py
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Регистрация в views.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        регистрация и логин
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Просмотр домашних заданий
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Просмотр домашних заданий">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск, фильтрация и пагинация
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрин доски
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Сдача домашнего задания
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Сдача домашнего задания">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#submit_homework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Основная логика submit_homework()
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрин формы сдачи
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Журнал оценок
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Журнал оценок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Формирование данных для таблицы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Формирование данных для таблицы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрин журнала
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Интерфейс преподавателя и разграничение прав
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Интерфейс преподавателя и разграничение прав">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Проверка прав доступа
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрины интерфейса преподавателя
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Оформление интерфейса
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Основные страницы сайта
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Проверка работы приложения
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вывод
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Используемые технологии
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Используемые технологии">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Подготовительные практики
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Структура проекта
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Модель данных
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Модель данных">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связи между моделями
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modelspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Основные модели models.py
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PostgreSQL и миграции
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-django" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Административная панель Django
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Административная панель Django">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        административная панель
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Регистрация и авторизация пользователей
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Регистрация и авторизация пользователей">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#viewspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Регистрация в views.py
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Регистрация в views.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        регистрация и логин
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Просмотр домашних заданий
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Просмотр домашних заданий">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поиск, фильтрация и пагинация
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрин доски
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Сдача домашнего задания
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Сдача домашнего задания">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#submit_homework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Основная логика submit_homework()
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрин формы сдачи
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Журнал оценок
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Журнал оценок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Формирование данных для таблицы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Формирование данных для таблицы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрин журнала
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Интерфейс преподавателя и разграничение прав
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Интерфейс преподавателя и разграничение прав">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Проверка прав доступа
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        скрины интерфейса преподавателя
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Оформление интерфейса
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Основные страницы сайта
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Проверка работы приложения
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вывод
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no2-django">Лабораторная работа №2. Разработка сайта на Django</h1>
+<p><strong>Вариант №2:</strong> «Доска домашних заданий»  </p>
+<h2 id="_1">Цель работы</h2>
+<p>Изучить основы разработки веб-приложений с использованием фреймворка Django, шаблонизатора Jinja2 и СУБД PostgreSQL. Научиться создавать модели данных, обрабатывать HTTP-запросы, работать с формами, организовывать регистрацию и авторизацию пользователей, а также разграничивать права доступа.</p>
+<p>В лабораторной работе реализован сайт «Доска домашних заданий», на котором ученики могут просматривать задания и сдавать текстовые ответы, а преподаватель может проверять работы и выставлять оценки.</p>
+<h2 id="1">1. Используемые технологии</h2>
+<table>
+<thead>
+<tr>
+<th>Технология</th>
+<th>Назначение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>Язык программирования серверной части</td>
+</tr>
+<tr>
+<td>Django</td>
+<td>Фреймворк для создания сайта и обработки запросов</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>Хранение пользователей, заданий, ответов и оценок</td>
+</tr>
+<tr>
+<td>Django ORM</td>
+<td>Работа с таблицами базы данных через модели Python</td>
+</tr>
+<tr>
+<td>Jinja2</td>
+<td>Формирование HTML-страниц с динамическими данными</td>
+</tr>
+<tr>
+<td>HTML, CSS</td>
+<td>Структура и оформление пользовательского интерфейса</td>
+</tr>
+<tr>
+<td>Django-admin</td>
+<td>Управление предметами, заданиями и оценками</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_2">Подготовительные практики</h3>
+<p>Перед индивидуальным заданием были выполнены практики 2.1–2.3: создан учебный Django-проект с моделями автовладельцев и автомобилей, связями через промежуточную таблицу владения, формами CRUD, административной панелью и расширенной моделью пользователя. Для основного задания был создан отдельный проект <code>homework_board</code>.</p>
+<h2 id="2">2. Структура проекта</h2>
+<p>Основные файлы :</p>
+<pre><code class="language-text">homework_board/
+├── manage.py
+├── homework_project/
+│   ├── settings.py
+│   ├── urls.py
+│   └── jinja2.py
+└── board/
+    ├── models.py
+    ├── views.py
+    ├── forms.py
+    ├── admin.py
+    ├── urls.py
+    ├── migrations/
+    ├── jinja2/board/
+    │   ├── base.html
+    │   ├── homework_list.html
+    │   ├── register.html
+    │   ├── login.html
+    │   ├── submit_homework.html
+    │   ├── grade_list.html
+    │   ├── teacher_submissions.html
+    │   └── grade_submission.html
+    └── static/board/style.css
+</code></pre>
+<p><code>manage.py</code> используется для запуска сервера и миграций. В <code>models.py</code> описаны таблицы, в <code>views.py</code> логика обработки запросов, в <code>urls.py</code> адреса страниц. Шаблоны Jinja2 находятся в папке <code>jinja2/board/</code>, а стили в <code>static/board/style.css</code>.</p>
+<h2 id="3">3. Модель данных</h2>
+<p>Для хранения данных используется PostgreSQL. В приложении <code>board</code> созданы три модели, связанные со стандартной моделью пользователя Django.</p>
+<table>
+<thead>
+<tr>
+<th>Модель</th>
+<th>Основные поля</th>
+<th>Назначение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>User</code> (Django)</td>
+<td><code>username</code>, <code>password</code>, <code>is_staff</code></td>
+<td>Ученик, преподаватель или администратор</td>
+</tr>
+<tr>
+<td><code>Subject</code></td>
+<td><code>id</code>, <code>name</code></td>
+<td>Дисциплина</td>
+</tr>
+<tr>
+<td><code>Homework</code></td>
+<td><code>subject</code>, <code>teacher</code>, <code>assigned_date</code>, <code>start_date</code>, <code>due_date</code>, <code>description</code>, <code>penalty_info</code></td>
+<td>Домашнее задание</td>
+</tr>
+<tr>
+<td><code>Submission</code></td>
+<td><code>homework</code>, <code>student</code>, <code>answer_text</code>, <code>submitted_at</code>, <code>grade</code></td>
+<td>Сданная работа и её оценка</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">Связи между моделями</h3>
+<table>
+<thead>
+<tr>
+<th>Связь</th>
+<th>Тип</th>
+<th>Объяснение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Subject</code> → <code>Homework</code></td>
+<td>Один ко многим</td>
+<td>По одному предмету может быть несколько заданий</td>
+</tr>
+<tr>
+<td><code>User</code> (teacher) → <code>Homework</code></td>
+<td>Один ко многим</td>
+<td>Один преподаватель может выдать несколько заданий</td>
+</tr>
+<tr>
+<td><code>Homework</code> → <code>Submission</code></td>
+<td>Один ко многим</td>
+<td>Одно задание могут сдавать разные ученики</td>
+</tr>
+<tr>
+<td><code>User</code> (student) → <code>Submission</code></td>
+<td>Один ко многим</td>
+<td>Один ученик может сдать несколько работ</td>
+</tr>
+</tbody>
+</table>
+<h3 id="modelspy">Основные модели <code>models.py</code></h3>
+<pre><code class="language-python">class Subject(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Homework(models.Model):
+    subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    assigned_date = models.DateField(default=timezone.localdate)
+    start_date = models.DateField()
+    due_date = models.DateField()
+    description = models.TextField()
+    penalty_info = models.TextField(blank=True)
+
+    def __str__(self):
+        return f&quot;{self.subject} - {self.description[:30]}&quot;
+
+
+class Submission(models.Model):
+    homework = models.ForeignKey(Homework, on_delete=models.CASCADE)
+    student = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    answer_text = models.TextField()
+    submitted_at = models.DateTimeField(auto_now_add=True)
+    grade = models.IntegerField(null=True, blank=True)
+
+    def __str__(self):
+        return f&quot;{self.student.username} - {self.homework}&quot;
+</code></pre>
+<p>Поле <code>ForeignKey</code> задаёт связь с другой таблицей. <code>on_delete=models.CASCADE</code> означает удаление зависимых записей при удалении связанного объекта. Поле <code>submitted_at</code> заполняется автоматически при сдаче работы, а <code>grade</code> может оставаться пустым до проверки преподавателем.</p>
+<h3 id="postgresql">PostgreSQL и миграции</h3>
+<p>Для подключения базы данных в <code>settings.py</code> используется движок:</p>
+<pre><code class="language-python">'ENGINE': 'django.db.backends.postgresql',
+'NAME': 'homework_board_db',
+</code></pre>
+<p>После создания моделей структура базы формируется командами:</p>
+<pre><code class="language-bash">python3 manage.py makemigrations
+python3 manage.py migrate
+</code></pre>
+<p>Первая команда создаёт миграции, вторая применяет их к PostgreSQL.</p>
+<h2 id="4-django">4. Административная панель Django</h2>
+<p>Модели <code>Subject</code>, <code>Homework</code> и <code>Submission</code> зарегистрированы в <code>board/admin.py</code>. Для удобства используются <code>list_display</code>, <code>list_filter</code> и <code>search_fields</code>.</p>
+<p>Пример настройки списка сданных работ:</p>
+<pre><code class="language-python">@admin.register(Submission)
+class SubmissionAdmin(admin.ModelAdmin):
+    list_display = ['id', 'student', 'homework', 'submitted_at', 'grade']
+    list_filter = ['grade', 'homework__subject']
+    search_fields = ['student__username']
+</code></pre>
+<p>Через административную панель преподаватель может просматривать ответы учеников и устанавливать значение поля <code>grade</code>.</p>
+<h4 id="_4">административная панель</h4>
+<p><img alt="" src="../../images/lr2/admin.png" /></p>
+<h2 id="5">5. Регистрация и авторизация пользователей</h2>
+<p>На сайте реализованы страницы регистрации, входа и выхода. Для регистрации используется стандартная форма Django <code>UserCreationForm</code>, которая проверяет вводимые данные и сохраняет пароль в виде хеша.</p>
+<h3 id="viewspy">Регистрация в <code>views.py</code></h3>
+<pre><code class="language-python">def register(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('login')
+    else:
+        form = UserCreationForm()
+
+    return render(request, 'board/register.html', {'form': form})
+</code></pre>
+<p>Для авторизации используются <code>LoginView</code> и <code>LogoutView</code> из Django. Сессия позволяет определить текущего пользователя через <code>request.user</code>.</p>
+<p>В Jinja2-шаблонах формы отправляются методом <code>POST</code> и используют CSRF-защиту:</p>
+<pre><code class="language-html">&lt;form method=&quot;post&quot;&gt;
+    {{ csrf_input }}
+    {{ form.as_p() | safe }}
+    &lt;button type=&quot;submit&quot;&gt;Зарегистрироваться&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+<h4 id="_5">регистрация и логин</h4>
+<p><img alt="" src="../../images/lr2/register.png" /></p>
+<p><img alt="" src="../../images/lr2/login.png" /></p>
+<h2 id="6">6. Просмотр домашних заданий</h2>
+<p>Главная страница показывает задания по всем дисциплинам: название предмета, преподавателя, дату выдачи, начало и срок выполнения, описание и информацию о штрафах.</p>
+<h3 id="_6">Поиск, фильтрация и пагинация</h3>
+<p>Во <code>views.py</code> реализован поиск по описанию задания и названию предмета, фильтрация по дисциплине, а также разбиение результатов на страницы.</p>
+<pre><code class="language-python">def homework_list(request):
+    homeworks = Homework.objects.select_related('subject', 'teacher').order_by('due_date')
+    subjects = Subject.objects.all()
+
+    search = request.GET.get('search', '').strip()
+    subject_id = request.GET.get('subject', '')
+
+    if search:
+        homeworks = homeworks.filter(
+            Q(description__icontains=search) |
+            Q(subject__name__icontains=search)
+        )
+
+    if subject_id:
+        homeworks = homeworks.filter(subject_id=subject_id)
+
+    paginator = Paginator(homeworks, 2)
+    page_obj = paginator.get_page(request.GET.get('page'))
+</code></pre>
+<p><code>Q()</code> объединяет условия поиска, <code>icontains</code> позволяет искать подстроку без учёта регистра, <code>Paginator</code> показывает по два задания на одной странице.</p>
+<p>В HTML используется Jinja2-цикл:</p>
+<pre><code class="language-html">{% for homework in page_obj %}
+    &lt;div class=&quot;homework&quot;&gt;
+        &lt;h2&gt;{{ homework.subject.name }}&lt;/h2&gt;
+        &lt;p&gt;Задание: {{ homework.description }}&lt;/p&gt;
+        &lt;p&gt;Срок сдачи: {{ homework.due_date.strftime('%d.%m.%Y') }}&lt;/p&gt;
+    &lt;/div&gt;
+{% else %}
+    &lt;p&gt;Задания не найдены&lt;/p&gt;
+{% endfor %}
+</code></pre>
+<h3 id="_7">скрин доски</h3>
+<p><img alt="" src="../../images/lr2/homework_list.png" /></p>
+<h2 id="7">7. Сдача домашнего задания</h2>
+<p>Авторизованный ученик может открыть форму задания и отправить текст ответа. Для этого используется модель <code>Submission</code> и форма <code>SubmissionForm</code>, содержащая только поле <code>answer_text</code>.</p>
+<h3 id="submit_homework">Основная логика <code>submit_homework()</code></h3>
+<pre><code class="language-python">@login_required
+def submit_homework(request, homework_id):
+    homework = get_object_or_404(Homework, pk=homework_id)
+
+    if request.user.is_staff:
+        messages.error(request, 'Преподаватель не может сдавать задания.')
+        return redirect('homework_list')
+
+    if Submission.objects.filter(homework=homework, student=request.user).exists():
+        messages.info(request, 'Вы уже сдали это задание.')
+        return redirect('homework_list')
+
+    if request.method == 'POST':
+        form = SubmissionForm(request.POST)
+        if form.is_valid():
+            submission = form.save(commit=False)
+            submission.homework = homework
+            submission.student = request.user
+            submission.save()
+            return redirect('homework_list')
+</code></pre>
+<p>Декоратор <code>@login_required</code> требует авторизации. Проверка <code>is_staff</code> запрещает преподавателю сдавать работы как ученик. Условие <code>exists()</code> не позволяет повторно отправить то же задание через это представление.</p>
+<p><code>commit=False</code> создаёт объект без немедленной записи в базу: сначала сервер назначает текущего ученика и домашнее задание, затем вызывает <code>save()</code>.</p>
+<p>После отправки появляется запись в <code>Submission</code>, а оценка остаётся пустой до проверки.</p>
+<h3 id="_8">скрин формы сдачи</h3>
+<p><img alt="" src="../../images/lr2/submission.png" /></p>
+<h2 id="8">8. Журнал оценок</h2>
+<p>На странице <code>/grades/</code> формируется таблица оценок всех обычных пользователей (<code>is_staff=False</code>) по домашним заданиям.</p>
+<p>Столбцы соответствуют заданиям, а строки ученикам. Если оценка отсутствует, выводится знак <code>—</code>.</p>
+<h3 id="_9">Формирование данных для таблицы</h3>
+<pre><code class="language-python">students = User.objects.filter(is_staff=False).order_by('username')
+homeworks = list(Homework.objects.select_related('subject').order_by('id'))
+submissions = Submission.objects.all()
+
+grades = {}
+for submission in submissions:
+    grades[(submission.student_id, submission.homework_id)] = submission.grade
+</code></pre>
+<p>Ключ словаря <code>grades</code> - пара <code>(ID ученика, ID задания)</code>. По этой паре определяется оценка для конкретной ячейки таблицы. При подготовке строк перебираются все ученики и все задания.</p>
+<p>Фрагмент шаблона Jinja2:</p>
+<pre><code class="language-html">{% for row in rows %}
+&lt;tr&gt;
+    &lt;td&gt;{{ row.student.username }}&lt;/td&gt;
+    {% for grade in row.grades %}
+        &lt;td&gt;{{ grade }}&lt;/td&gt;
+    {% endfor %}
+&lt;/tr&gt;
+{% endfor %}
+</code></pre>
+<h4 id="_10">скрин журнала</h4>
+<p><img alt="" src="../../images/lr2/grades.png" /></p>
+<h2 id="9">9. Интерфейс преподавателя и разграничение прав</h2>
+<p>Для преподавателя добавлены страницы просмотра сданных работ и выставления оценок прямо на сайте, помимо Django-admin.</p>
+<h3 id="_11">Проверка прав доступа</h3>
+<pre><code class="language-python">@login_required
+def teacher_submissions(request):
+    if not request.user.is_staff:
+        return HttpResponseForbidden('Доступ запрещён')
+
+    submissions = Submission.objects.select_related(
+        'student', 'homework__subject'
+    ).order_by('-submitted_at')
+
+    return render(request, 'board/teacher_submissions.html', {
+        'submissions': submissions
+    })
+</code></pre>
+<p>Доступ к странице имеют только авторизованные пользователи с <code>is_staff=True</code>. Обычный ученик получает HTTP-ответ <strong>403 Forbidden</strong>.</p>
+<p>Для выставления оценки используется <code>GradeForm</code>, ограничивающая допустимое значение диапазоном от 1 до 5. При сохранении формы с <code>instance=submission</code> редактируется уже существующая работа:</p>
+<pre><code class="language-python">form = GradeForm(request.POST, instance=submission)
+if form.is_valid():
+    form.save()
+</code></pre>
+<p>В Jinja2-ссылке на работу её ID передаётся через <code>args</code>:</p>
+<pre><code class="language-html">&lt;a href=&quot;{{ url('grade_submission', args=[submission.id]) }}&quot;&gt;
+    Оценить
+&lt;/a&gt;
+</code></pre>
+<p>Таким образом преподаватель может видеть текст ответа ученика и выставлять оценку непосредственно в браузере. Проверка прав выполняется не только в шаблоне, но и на сервере.</p>
+<h3 id="_12">скрины интерфейса преподавателя</h3>
+<p><img alt="" src="../../images/lr2/teacher_submissions.png" /></p>
+<p><img alt="" src="../../images/lr2/grade_submission.png" /></p>
+<h2 id="10">10. Оформление интерфейса</h2>
+<p>Пользовательские страницы реализованы с помощью <strong>Jinja2</strong>, а оформление вынесено в CSS-файл <code>board/static/board/style.css</code>.</p>
+<p>Используются светлый фон, карточки заданий, стилизованные кнопки и формы, таблица журнала, навигация и адаптация под небольшую ширину экрана.</p>
+<p>Подключение CSS в Jinja2:</p>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;{{ static('board/style.css') }}&quot;&gt;
+</code></pre>
+<p>Для нескольких страниц используется общий шаблон <code>base.html</code> с блоком:</p>
+<pre><code class="language-html">{% block content %}
+{% endblock %}
+</code></pre>
+<p>Административная панель Django продолжает использовать стандартный шаблонизатор Django; пользовательский интерфейс работает с Jinja2.</p>
+<h2 id="11">11. Основные страницы сайта</h2>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Метод</th>
+<th>Назначение</th>
+<th>Доступ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/</code></td>
+<td>GET</td>
+<td>Просмотр заданий, поиск, фильтрация, пагинация</td>
+<td>Все</td>
+</tr>
+<tr>
+<td><code>/register/</code></td>
+<td>GET, POST</td>
+<td>Регистрация</td>
+<td>Все</td>
+</tr>
+<tr>
+<td><code>/login/</code></td>
+<td>GET, POST</td>
+<td>Вход</td>
+<td>Все</td>
+</tr>
+<tr>
+<td><code>/logout/</code></td>
+<td>POST</td>
+<td>Выход</td>
+<td>Авторизованные</td>
+</tr>
+<tr>
+<td><code>/homework/&lt;id&gt;/submit/</code></td>
+<td>GET, POST</td>
+<td>Сдача текстового ответа</td>
+<td>Ученик</td>
+</tr>
+<tr>
+<td><code>/grades/</code></td>
+<td>GET</td>
+<td>Журнал оценок</td>
+<td>Авторизованные</td>
+</tr>
+<tr>
+<td><code>/teacher/submissions/</code></td>
+<td>GET</td>
+<td>Просмотр сданных работ</td>
+<td>Преподаватель</td>
+</tr>
+<tr>
+<td><code>/teacher/submissions/&lt;id&gt;/grade/</code></td>
+<td>GET, POST</td>
+<td>Выставление оценки</td>
+<td>Преподаватель</td>
+</tr>
+<tr>
+<td><code>/admin/</code></td>
+<td>GET, POST</td>
+<td>Администрирование данных</td>
+<td>Администратор</td>
+</tr>
+</tbody>
+</table>
+<h2 id="12">12. Проверка работы приложения</h2>
+<p>Для проверки функциональности предусмотрены следующие сценарии:</p>
+<table>
+<thead>
+<tr>
+<th>Действие</th>
+<th>Ожидаемый результат</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Регистрация нового пользователя</td>
+<td>Пользователь создаётся и может войти в систему</td>
+</tr>
+<tr>
+<td>Поиск задания по названию дисциплины</td>
+<td>Выводятся соответствующие задания</td>
+</tr>
+<tr>
+<td>Выбор дисциплины в фильтре</td>
+<td>Список ограничивается выбранным предметом</td>
+</tr>
+<tr>
+<td>Переключение страниц</td>
+<td>Отображается следующая часть списка заданий</td>
+</tr>
+<tr>
+<td>Сдача ответа учеником</td>
+<td>В базе появляется запись <code>Submission</code></td>
+</tr>
+<tr>
+<td>Повторная попытка сдачи</td>
+<td>Отображается сообщение о ранее сданном задании</td>
+</tr>
+<tr>
+<td>Выставление оценки преподавателем</td>
+<td>Оценка сохраняется и появляется в журнале</td>
+</tr>
+<tr>
+<td>Открытие страницы преподавателя учеником</td>
+<td>Возвращается ошибка 403</td>
+</tr>
+</tbody>
+</table>
+<p>Для запуска проекта из папки <code>homework_board</code> используются команды:</p>
+<pre><code class="language-bash">python3 manage.py check
+python3 manage.py runserver
+</code></pre>
+<p>После запуска сайт доступен локально по адресу <code>http://127.0.0.1:8000/</code></p>
+<h2 id="_13">Вывод</h2>
+<p>В ходе лабораторной работы был создан сайт «Доска домашних заданий» с использованием Django, PostgreSQL и Jinja2.</p>
+<p>Были реализованы модели дисциплин, домашних заданий и сданных работ, административная панель, регистрация и авторизация пользователей, просмотр и поиск заданий, сдача текстовых ответов и выставление оценок.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
